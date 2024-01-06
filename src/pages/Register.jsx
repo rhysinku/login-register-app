@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import ThirdpartyLogin from '../components/ThirdpartyLogin'
 import { FaEye } from "react-icons/fa6";
 const Register = () => {
@@ -7,7 +8,7 @@ const Register = () => {
         <form className="formcon">
 
         <div className="formcon__box">
-            
+
             <div className="formcon__input">
             <input type="text" placeholder="First Name" />
             </div>
@@ -33,7 +34,7 @@ const Register = () => {
             <button className="formcon__btn">Signup</button>
         </form>
         <div className="formbox__content">
-        <p>Already have an account? <a>Login</a></p>
+        <p>Already have an account? <Link to='/'>Login</Link></p>
         </div>
        <ThirdpartyLogin/>
     </div>

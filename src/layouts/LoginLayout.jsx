@@ -1,10 +1,8 @@
-import Login from '../pages/Login'
-import Register from '../pages/Register'
+import { Outlet } from 'react-router-dom'
 const LoginLayout = () => {
     return (
         <>
-            {/* <Login/> */}
-            <Register/>
+           <Outlet/>
         </>
     );
 }

@@ -40,7 +40,7 @@
     &__box{
         display: flex;
         gap: 10px;
-        
+
     }
 
     &__input{
@@ -61,6 +61,8 @@
             bottom: 0;
             right: 5%;
             margin: auto;
+            display: flex;
+            align-items: center;
         }
     }
 
